@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# ===== Environnements virtuels =====
+venv/
+.venv/
+env/
+.env
+.conda/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ===== Éditeurs / IDE =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== Systèmes d'exploitation =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Fichiers temporaires =====
+*.tmp
+*.log
+*.bak
+
+# ===== Présentation (fichiers de verrouillage Office) =====
+~$*
