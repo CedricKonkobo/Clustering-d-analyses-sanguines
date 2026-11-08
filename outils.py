@@ -21,3 +21,15 @@ def indice_dunn(X, labels):
                        for b in clusters[i + 1:])
 
     return distance_min / diametre_max
+
+
+def inertie(X, labels):
+    """Inertie intra-cluster.
+
+    Somme des carrés des distances de chaque point au centre de son cluster.
+    Plus elle est faible, plus les clusters sont compacts.
+    """
+    X = np.asarray(X)
+    labels = np.asarray(labels)
+    return sum(((X[labels == c] - X[labels == c].mean(axis=0)) ** 2).sum()
+               for c in np.unique(labels))
