@@ -1,0 +1,24 @@
+{
+    "SEED": 42,
+    "K_choisi": 3,
+    "analyses": [
+        "ALB",
+        "ALP",
+        "ALT",
+        "AST",
+        "BIL",
+        "CHE",
+        "CHOL",
+        "CREA",
+        "GGT",
+        "PROT"
+    ],
+    "asymetriques": [
+        "ALP",
+        "ALT",
+        "AST",
+        "BIL",
+        "CREA",
+        "GGT"
+    ]
+}
